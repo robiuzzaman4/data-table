@@ -217,7 +217,7 @@ export default function DataTable() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            TanStack Table
+            TanStack Table 😎
           </a>
         </p>
         <p className="text-muted-foreground text-center text-sm">
