@@ -22,14 +22,13 @@ jobs:
         run: npm install
 
       - name: Build Next.js app
-        run: npm run build
+        run: npm run pages:build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: data-table #Replace with your Cloudflare page project name.
+          projectName: data-table
           directory: ./.next
-          branch: main #Or your production branch
-
+          branch: main
