@@ -83,4 +83,13 @@ export const CustomItems: Item[] = [
     traffic: 35,
     link: "https://originui.com",
   },
+  {
+    id: "9",
+    keyword: "test",
+    intents: ["Informational", "Navigational"],
+    volume: 950,
+    cpc: 1.8,
+    traffic: 35,
+    link: "https://originui.com",
+  },
 ];
